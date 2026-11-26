@@ -25,21 +25,21 @@ Misconfiguration data is often fragmented across multiple cloud accounts, region
 ## 2. Wireframes & Annotations
 
 ### Screen 1: Cloud Posture Overview & Filter Table
-![Cloud Posture Overview](wireframes/screen-1-overview.png)
+![Cloud Posture Overview](![Cloud Posture Overview](wireframesscreen-1-overview.png))
 
 * **Filter Bar (`Account`, `Severity`, `Env`, `Resource`, `Owner`):** Allows filtering across accounts and environments from a single top bar with a quick reset option.
 * **KPI Summary Cards (`Posture Score`, `Critical`, `High`, `Open Issues`):** Surfaces overall posture health (`74/100`) and immediate action counts upfront.
 * **Prioritized Issues Table:** Groups recurring misconfigurations by affected resource count (e.g., `8x`, `3x`, `2x`) with owner, last-seen timestamp, bulk selection, and direct `Inspect` actions.
 
 ### Screen 2: Misconfiguration Detail & Remediation View
-![Misconfiguration Detail View](wireframes/screen-2-detail.png)
+![Misconfiguration Detail View](![Misconfiguration Detail View](wireframesscreen-2-detail.png.png)
 
 * **Risk & Context Card:** Explains the misconfiguration (`Public Storage Bucket w/ Sensitive Tag`, `Policy: CSPM-STR-014`) and highlights data sensitivity (`sensitivity=high`) and potential impact in plain language.
 * **Affected Resources Checklist:** Lists impacted resources (e.g., `customer-kyc-exports-prod`) so engineers can select specific or all affected assets.
 * **How to Remediate & Ownership Card:** Provides clear step-by-step remediation instructions alongside owner details (`@data-platform`), status updates, and `Assign to Owner` / `Mark Resolved` actions.
 
 ### Screen 3: Account Posture & Trend View
-![Account Posture and Trend View](wireframes/screen-3-trends.png)
+![Account Posture and Trend View](![Account Posture and Trend View](wireframesscreen-3-trends.png.png))
 
 * **Cross-Account Comparison Table:** Compares posture scores, critical/high issue counts, top risk areas, and 30-day score changes across accounts (`prod-data`, `prod-core`, `prod-app`).
 * **Time Window Selector (`Last 30 Days`):** Lets users track whether security posture is improving or regressing over time.
