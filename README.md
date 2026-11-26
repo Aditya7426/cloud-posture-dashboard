@@ -25,7 +25,7 @@ Misconfiguration data is often fragmented across multiple cloud accounts, region
 ## 2. Wireframes & Annotations
 
 ### Screen 1: Cloud Posture Overview & Filter Table
-![Cloud Posture Overview](![Cloud Posture Overview](wireframesscreen-1-overview.png))
+![Cloud Posture Overview](wireframesscreen-1-overview.png.png)
 
 * **Filter Bar (`Account`, `Severity`, `Env`, `Resource`, `Owner`):** Allows filtering across accounts and environments from a single top bar with a quick reset option.
 * **KPI Summary Cards (`Posture Score`, `Critical`, `High`, `Open Issues`):** Surfaces overall posture health (`74/100`) and immediate action counts upfront.
